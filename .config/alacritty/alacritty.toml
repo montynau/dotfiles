@@ -9,9 +9,26 @@ import = [
 [env]
   TERM = "xterm-256color"
 
+[window]
+  #dimensions = { columns = 175, lines = 54 }
+  position = { x = 140, y = 0 }
+  padding = { x = 30, y = 30 }
+  dynamic_padding = true
+  decorations = "Transparent"
+  opacity = 0.95
+  startup_mode = "Maximized"
+
 [font]
-normal = { family ="Ubuntumono nerd font", style="Regular"}
-bold = { family ="Ubuntumono nerd font", style="Regular"}
-italic = { family ="Ubuntumono nerd font", style="Regular"}
-bold_italic = { family ="Ubuntumono nerd font", style="Regular"}
-size = 18
+  normal = { family ="Ubuntumono nerd font", style="Regular"}
+  bold = { family ="Ubuntumono nerd font", style="Regular"}
+  italic = { family ="Ubuntumono nerd font", style="Regular"}
+  bold_italic = { family ="Ubuntumono nerd font", style="Regular"}
+  size = 18
+
+[cursor]
+  style = { shape = "Block", blinking = "Always" }
+
+#[mouse]
+#  bindings = [
+#    { mouse = "Right", mods = "Control", action = "Copy" },
+#  ]
