@@ -6,12 +6,12 @@
 
 Install homebrew:<br/>`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-Add temporary homebrew to your path after install `export PATH="/opt/homebrew/bin:$PATH"`
+Add temporary homebrew to your path after install:<br/>`export PATH="/opt/homebrew/bin:$PATH"`
 
-To install packages of homebrew run `brew bundle install`.
+Install packages of homebrew run:<br/>`brew bundle install`.
 
 ## Install dotfiles
 
 To add configuration to system run `./stow .` in this repo directory.
 
-For wallpapers `git clone https://github.com/zhichaoh/catppuccin-wallpapers.git`
+Wallpapers `git clone https://github.com/zhichaoh/catppuccin-wallpapers.git`
