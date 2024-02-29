@@ -5,7 +5,12 @@ return {
   opts = {
     options = {
       mode = "tabs",
-      separator_style = "slant",
     },
   },
+  config = function()
+    vim.opt.termguicolors = true
+    require("bufferline").setup{}
+end
 }
+
+
