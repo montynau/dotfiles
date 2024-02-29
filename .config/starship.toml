@@ -49,14 +49,14 @@ format = 'at [$path]($style)[$read_only]($read_only_style) '
 # Shows current git branch
 [git_branch]
 symbol = ' '
-format = 'via [$symbol$branch]($style)'
+format = 'via [$symbol$branch]($style) '
 # truncation_length = 4
 truncation_symbol = '…/'
 style = 'bold green'
 
 # Shows current git status
 [git_status]
-format = '([ \( $all_status$ahead_behind\)]($style) )'
+format = '([\( $all_status$ahead_behind\)]($style) )'
 style = 'bold green'
 conflicted = '[ confliced=${count}](red) '
 up_to_date = '[󰘽 up-to-date](green) '
