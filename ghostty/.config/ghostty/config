@@ -1,0 +1,9 @@
+font-size = 16
+font-family = JetBrainsMono Nerd Font 
+window-padding-x = 12
+window-padding-y = 12
+window-decoration = false
+background-opacity = 0.8
+window-height = 50000
+window-width = 50000
+theme = catppuccin-mocha
