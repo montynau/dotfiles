@@ -3,11 +3,11 @@ local function enable_transparency()
 end
 return {
     {
-        "catppuccin/nvim",
-        name = "catppuccin",
+        "rose-pine/neovim",
+        name = "rose-pine",
         priority = 1000,
         config = function()
-            vim.cmd.colorscheme "catppuccin-mocha"
+            vim.cmd.colorscheme "rose-pine"
             enable_transparency()
         end
     },
